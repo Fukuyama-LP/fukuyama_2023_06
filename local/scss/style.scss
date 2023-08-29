@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+// セットアップ
+@import "common/_reset";
+@import "common/_settings";
+@import "common/_mixin";
+
+// 元のCSS
+@import "common/tomo01-style";
+
+// コンテンツエリア（基本的に触るのはこちら）
+@import "parts";
+@import "main";

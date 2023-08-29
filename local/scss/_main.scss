@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+// --------------------------------
+// コンテンツ
+// --------------------------------
+
+#main #main_a #tokusyuu_202306_1{
+    background-color: #fff;
+    margin: 30px auto 60px;
+    @include mq(){
+        margin: sp(40) auto sp(80);
+    }
+
+
+   .cont{
+        &-title{
+            font-size: 3rem;
+            line-height: 1.5;
+            font-weight: bold;
+            color: #000000;
+            text-align: center;
+            margin-bottom: 30px;
+            @include mq(){
+                font-size: txt(52);
+                margin-bottom: sp(40);
+            }
+            & span{
+                color: #BB1D67;
+            }
+
+        }
+        &-top{
+            margin-bottom: 60px;
+            @include mq(){
+                margin-bottom: sp(80);
+            }
+                &-mosaic{
+                    margin-bottom: 30px;
+                    @include mq(){
+                        margin-bottom: sp(40);
+                    }
+                }
+                & .cont-bubble{
+                    &-illus{
+                        max-width: 409px;
+                        margin: auto;
+                        @include mq(){
+                            width: 74.05%;
+                        }
+                    }
+                    &-label{
+                        font-size: 1.4rem;
+                        font-weight: normal;
+                        line-height: 1.5;
+                        margin-top: 14px;
+                        text-align: center;
+                        @include mq(){
+                            margin-top: sp(24);
+                        }
+                    }
+                }
+                & .cont-inner-title{
+                    color: #BB1D67;
+                    font-size: 2.2rem;
+                    @include mq(){
+                        font-size: txt(36);
+                    }
+                }
+            }
+
+        &-01{
+            & .cont-inner{
+                &-title{
+                color: #fff;
+                font-size: 3rem;
+                background-color: #BB1D67;
+                padding: 10px 0 10px 10px;
+                text-align: left;
+                & span{
+                    color: #FFF100;
+                }
+                    @include mq(){
+                        font-size: txt(44);
+                        padding: sp(24) 0 sp(24) sp(24);
+                    }
+                }
+                &-visit{
+                    margin-bottom: 60px;
+                    @include mq(){
+                        margin-bottom: sp(80);
+                    }
+                    &-title{
+                        font-size: 1.6rem;
+                        font-weight: bold;
+                        line-height: 1.5;
+                        color: #000000;
+                        border-top: 1px solid #000000;
+                        border-bottom: 1px solid #000000;
+                        padding: 10px 0;
+                        margin-bottom: 10px;
+                        @include mq(){
+                            margin-bottom: sp(40);
+                            padding: sp(16) 0;
+                        }
+                    }
+                    &-list{
+                    }
+                    &-item{
+                        font-size: 1.6rem;
+                        font-weight: normal;
+                        line-height: 1.5;
+                        @include mq(sm){
+                            padding-left: 15px;
+                        }
+                        & br{
+                            @include mq(sm){
+                                display: none;
+                            }
+                        }
+                        position: relative;
+                        &::before{
+                            // position: absolute;
+                            content: "●";
+                            font-size: 1.6rem;
+                            font-weight: normal;
+                            line-height: 1.5;
+                            @include mq(sm){
+                                margin-left: -15px;
+                            }
+                        }
+                    }
+                }
+            }
+            &-list{
+
+            }
+            &-item{
+                margin-bottom: 60px;
+                @include mq(){
+                    margin-bottom: sp(80);
+                }
+                &-title{
+                    font-size: 2.2rem;
+                    font-weight: bold;
+                    line-height: 1.5;
+                    color: #BB1D67;
+                    border: 2px solid #BB1D67;
+                    padding: 10px 0;
+                    margin-bottom: 30px;
+                    @include mq(){
+                        padding: sp(16) 0;
+                        margin-bottom: sp(40);
+                    }
+                    & span{
+                        color: #FFF100;
+                        background-color: #BB1D67;
+                        padding: 10px 20px;
+                        margin-right: 10px;
+                        @include mq(){
+                            padding: sp(16) sp(34);
+                            margin-right: sp(16);
+                        }
+                    }
+                }
+                &-img{
+                    margin-bottom: 30px;
+                    @include mq(){
+                        margin-bottom: sp(40) !important;
+                        margin-top: sp(40) !important;
+                    }
+                }
+                &:nth-child(1){
+                    & .cont-01-item-img--02{
+                        max-width: 666px;
+                        @include mq(){
+                            max-width: 100%;
+                        }
+                    }
+                }
+                &:nth-child(2),&:nth-child(3){
+                    & .cont-01-item-img{
+                        max-width: 463px;
+                        margin: 30px auto;
+                        @include mq(){
+                            width: 83.9%;
+                        }
+                    }
+                }
+                &:nth-child(4){
+                    margin-bottom: 83px;
+                    @include mq(){
+                        margin-bottom: sp(80);
+                    }
+                    & .cont-01-item-img--02{
+                        max-width: 640px;
+                        margin: 30px auto;
+                        @include mq(){
+                            width: 92.9%;
+                        }
+                    }
+                }
+                &:nth-child(6){
+                    & .cont-01-item-img{
+                        max-width: 478px;
+                        margin: 30px auto;
+                        @include mq(){
+                            width: 86.6%;
+                        }
+                    }
+                }
+                &:nth-child(7){
+                    & .cont-01-item-img{
+                        max-width: 348px;
+                        margin: 30px auto;
+                        @include mq(){
+                            width: 63%;
+                        }
+                    }
+                }
+            }
+            
+
+        }
+        &-inner{
+            max-width: 696px;
+            width: 80%;
+            margin: auto;
+            @include mq(tb){
+                width: 90%;
+            }
+            @include mq(){
+                width: 89.333%;
+                max-width: 100%;
+            }
+            &-title{
+                font-weight: bold;
+                line-height: 1.5;
+                margin: 30px 0;
+               
+                text-align: center;
+                @include mq(){
+                    margin: sp(40) sp(0);
+                }
+            }
+            &-para{
+                font-size: 1.6rem;
+                font-weight: normal;
+                line-height: 1.5;
+                margin-bottom: 30px;
+                @include mq(){
+                    margin-bottom: sp(40);
+                }
+            }
+          
+            
+        }
+      
+    }
+   
+}

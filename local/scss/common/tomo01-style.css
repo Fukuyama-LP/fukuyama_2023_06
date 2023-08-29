@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/*広報ふくやま専用 start*/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#mymainback {
+  font-size: 100%;
+}
+
+#main #main_a #tokusyuu_202306_1 {
+  width: 100%;
+  max-width: 870px;
+  margin-bottom: 40px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1.5;
+  color: #000000;
+}
+
+#main #main_a #tokusyuu_202306_1 p {
+  margin: 0px;
+  padding: 0px;
+  font-family: Meiryo, "MS Pゴシック", "MS PGothic", sans-serif;
+  font-size: 1.6rem;
+  color: #000000;
+}
+
+#main #main_a #tokusyuu_202306_1 h1, #main #main_a #tokusyuu_202306_1 h2,
+#main #main_a #tokusyuu_202306_1 h3, #main #main_a #tokusyuu_202306_1 h4,
+#main #main_a #tokusyuu_202306_1 h5, #main #main_a #tokusyuu_202306_1 h6 {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+  font-family: Meiryo, "MS Pゴシック", "MS PGothic", sans-serif;
+}
+
+dl.contact {
+  margin: 10px 0px 0px 0px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+dl.contact dt span {
+  display: inline-block;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.4rem;
+  background: #e85298;
+  padding: 6px 8px;
+  border-radius: 5px;
+  line-height: 1;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+dl.contact dd, dl.contact dd.last {
+  margin: 0;
+  padding: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "メイリオ", Meiryo, "MS Pゴシック", "MS PGothic", sans-serif;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+dl.contact dd > span {
+  display: inline-block;
+  line-height: 2.2;
+}
+
+.icon_tel:before {
+  content: url(./icon-tel.png);
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 4px 0 5px;
+  line-height: 1em;
+}
+
+span.block {
+  display: inline-block;
+}
+
+/*記事ID　追加*/
+dl.id-num {
+  margin: 10px 0px 0px 0px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+dl.id-num dt span {
+  display: inline-block;
+  color: #fff;
+  font-weight: normal;
+  background: #000;
+  padding: 6px;
+  border-radius: 5px;
+  line-height: 1em;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+dl.id-num dd {
+  margin: 0;
+  padding: 2px 0px 0px;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "メイリオ", Meiryo, "MS Pゴシック", "MS PGothic", sans-serif;
+  font-size: 1.5rem;
+}
+
+dl.id-num dd > span {
+  display: inline-block;
+}
+
+/*記事ID　追加 end*/
+/*広報ふくやま専用 end*/
+/* スマートフォン */
+/* スマートフォン ここまで */
+/*# sourceMappingURL=tomo01-style.css.map */
